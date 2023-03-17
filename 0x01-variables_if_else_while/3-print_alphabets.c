@@ -5,24 +5,24 @@
  */
 int main(void)
 {
-        char letter;
+	char letter;
 
-        letter = 'a';
+	letter = 'a';
 
-        while (letter <= 'z')
-        {
-                putchar(letter);
-                letter++;
-        }
+	while (letter <= 'z')
+	{
+		putchar(letter);
+		letter++;
+	}
 
-        /* z is 131 positions away than A in the ASCII table */
-        letter = 'A';
+	letter = 'A';
 
-        while (letter <= 'Z')
-        {
-                putchar(letter);
-                letter++;
-        }
+	while (letter <= 'Z')
+	{
+		putchar(letter);
+		letter++;
+	}
 
-        putchar('\n');
+	putchar('\n');
+	return (0);
 }
