@@ -1,38 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-
-
 /**
- * main - Entry point
- * Return: 0 (Success)
+ * main - Prints all possible combinations of single-digit numbers
+ * Return: 0
  */
-
-
 int main(void)
-
 {
+	int first_digit, second_digit;
 
-        int d, p;
-        
-        for (d = '0'; d <= '9'; d++)
-        {
-        
-        for (p = d + 1; p <= '9'; p++)
+	for (first_digit = 48; first_digit < 58; first_digit++)
+	{
+		for (second_digit = first_digit + 1; second_digit < 58; second_digit++)
 		{
-		if (p != d)
-		{
-        putchar(d);
-        putchar(p);
-		if
-		continue;
-		putchar(',');
-        putchar(' ');
+			putchar(first_digit);
+			putchar(second_digit);
+			if (first_digit < 56)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		}
-		}
-		putchar('\n');
-        return (0);
-
+	}
+	putchar('\n');
+	return (0);
 }
