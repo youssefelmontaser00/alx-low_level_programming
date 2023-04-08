@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 0x07. C - Even more pointers, arrays and strings
 Tasks
 0. memset
@@ -22,3 +25,7 @@ Tasks
 9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure
 	Create a file that contains the password for the crackme2 executable.
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
